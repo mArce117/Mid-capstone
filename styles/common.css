@@ -1,0 +1,72 @@
+body {
+  background-color: lightslategray;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Roboto Slab","Times New Roman",serif;
+  color: white;
+}
+
+.button {
+  background-color: hotpink;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  padding: 5px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    font-size: .8em;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+.hero-container {
+  width: 100%;
+  background-image: url(../images/hero-splash.jpg);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: rem;
+}
+
+.navbar-container {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navbar-container .nav-links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+}
+/*# sourceMappingURL=common.css.map */
